@@ -1,0 +1,823 @@
+{
+  "pages": [
+    {
+      "url": "https://newt.net/jpn/tokyo/mag-342975525304",
+      "suggestions": [
+        {
+          "keyword": "としまえんへのアクセス",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "最安・最速の行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京に行く方法",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "距離",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "電車でアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "車（タクシー）でアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京とは",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "施設概要"
+        },
+        {
+          "keyword": "チケット購入の方法",
+          "source": "h3",
+          "intent": "transactional",
+          "facet": "チケット/予約"
+        },
+        {
+          "keyword": "最速・最安の行き方",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "行き方",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "最寄駅から徒歩",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "アクセス",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "金額",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "料金/割引"
+        },
+        {
+          "keyword": "電車で移動するメリット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "メリット＆デメリット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "注意点/ルール"
+        },
+        {
+          "keyword": "帰り",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "豊島園駅から出発",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "コスパよく早く",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "東京駅から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "アクセスできる",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "駐車料金",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "料金/割引"
+        },
+        {
+          "keyword": "メリット＆デメリット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "帰りは車",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h3",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "買えないお土産",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "限定商品",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "東京で遊べるところ",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "周辺情報/観光"
+        },
+        {
+          "keyword": "楽しめるスポット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "周辺情報/観光"
+        },
+        {
+          "keyword": "神戸限定のお菓子",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "いつからいつまで",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "営業時間/所要時間"
+        },
+        {
+          "keyword": "狙い目の時期",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "営業時間/所要時間"
+        },
+        {
+          "keyword": "お土産ランキング",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "としまえんへのアクセス",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "最安・最速の行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京に行く方法",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "距離",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "電車でアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "車（タクシー）でアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京とは",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "施設概要"
+        },
+        {
+          "keyword": "チケット購入の方法",
+          "source": "h3",
+          "intent": "transactional",
+          "facet": "チケット/予約"
+        },
+        {
+          "keyword": "最速・最安の行き方",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "行き方",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "アクセス",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "金額",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "料金/割引"
+        },
+        {
+          "keyword": "電車で移動するメリット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "メリット＆デメリット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "注意点/ルール"
+        },
+        {
+          "keyword": "帰り",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "豊島園駅から出発",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "コスパよく早く",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "東京駅から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "アクセスできる",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "駐車料金",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "料金/割引"
+        },
+        {
+          "keyword": "メリット＆デメリット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "帰りは車",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h3",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "横浜駅でしか買えないお土産",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "限定商品",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "楽しめるスポット",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "観光/スポット"
+        },
+        {
+          "keyword": "神戸でしか買えないお土産",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "神戸限定のお菓子",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "大阪・関西万博",
+          "source": "h3",
+          "intent": "navigational",
+          "facet": "イベント情報"
+        },
+        {
+          "keyword": "いつからいつまで",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "営業時間/所要時間"
+        },
+        {
+          "keyword": "狙い目の時期",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "営業時間/所要時間"
+        },
+        {
+          "keyword": "タイで買いたいお土産",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        },
+        {
+          "keyword": "お土産ランキング",
+          "source": "h3",
+          "intent": "commercial",
+          "facet": "お土産/グッズ"
+        }
+      ]
+    },
+    {
+      "url": "https://travel.navitime.com/ja/area/jp/guide/NTJiku1032/",
+      "suggestions": [
+        {
+          "keyword": "アクセス",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "title",
+          "intent": "navigational",
+          "facet": "施設情報"
+        },
+        {
+          "keyword": "行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "アクセス簡単",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "としまえん跡地",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "最寄り駅",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "豊島園駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "大江戸線",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "豊島園駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "東京駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "新宿駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "空港からのアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "駐車場",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "事前予約制",
+          "source": "h2",
+          "intent": "transactional",
+          "facet": "チケット/予約"
+        },
+        {
+          "keyword": "車で行く",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "おすすめスポット",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "体験/見どころ"
+        },
+        {
+          "keyword": "アクセス",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "title",
+          "intent": "navigational",
+          "facet": "施設情報"
+        },
+        {
+          "keyword": "行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "アクセス簡単",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "としまえん跡地",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "施設情報"
+        },
+        {
+          "keyword": "最寄り駅",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "豊島園駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "大江戸線",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "豊島園駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "東京駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "新宿駅",
+          "source": "h2",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "空港からのアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "駐車場",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "事前予約制",
+          "source": "h2",
+          "intent": "transactional",
+          "facet": "チケット/予約"
+        },
+        {
+          "keyword": "車で行く",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "おすすめスポット",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "体験/見どころ"
+        }
+      ]
+    },
+    {
+      "url": "https://1rankup.jp/toshimaen-to-studio-tour-tokyo.html",
+      "suggestions": [
+        {
+          "keyword": "豊島園駅から",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "title",
+          "intent": "navigational",
+          "facet": "施設情報"
+        },
+        {
+          "keyword": "アクセス",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "徒歩何分",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "西武線から",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京のアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "都営大江戸線から",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "乗車位置から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "西武線の改札口",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "西武線の改札口から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h3",
+          "intent": "navigational",
+          "facet": "施設情報"
+        },
+        {
+          "keyword": "アクセス",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "乗車位置から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "改札口まで",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "改札口から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "A2出口まで",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "A2出口から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "豊島園駅から",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京のアクセス",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "徒歩何分",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "行き方",
+          "source": "title",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "西武線から",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京のアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "都営大江戸線から",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京のアクセス",
+          "source": "h2",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "乗車位置",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "西武線の改札口",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "西武線の改札口から",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h3",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "乗車位置",
+          "source": "h3",
+          "intent": "informational",
+          "facet": "アクセス/行き方"
+        },
+        {
+          "keyword": "スタジオツアー東京",
+          "source": "h3",
+          "intent": "navigational",
+          "facet": "アクセス/行き方"
+        }
+      ]
+    }
+  ]
+}

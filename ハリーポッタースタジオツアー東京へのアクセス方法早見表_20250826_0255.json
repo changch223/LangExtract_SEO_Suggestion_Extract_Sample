@@ -1,0 +1,517 @@
+{
+  "outline_data": {
+    "outline": [
+      {
+        "h2": "ハリーポッター「スタジオツアー東京」へのアクセス方法早見表",
+        "why": "記事の冒頭でユーザーが最も知りたいアクセス方法の全体像（電車・車）を簡潔に提示し、すぐに答えが見つかる構成にするため。主要なアクセス手段を比較検討したいという検索意図に応える。",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "h3": [
+          "【結論】電車が便利！最寄り駅は「豊島園駅」",
+          "各アクセス方法の所要時間・料金まとめ"
+        ],
+        "example_keywords": [
+          "スタジオツアー東京 アクセス",
+          "ハリーポッター としまえん 行き方",
+          "最速・最安の行き方"
+        ]
+      },
+      {
+        "h2": "電車でのアクセス方法｜最寄り駅「豊島園駅」から徒歩2分",
+        "why": "最も一般的で推奨されるアクセス方法である電車について、路線別に詳細な情報を提供するため。「豊島園駅」「西武豊島線」「都営大江戸線」「乗車位置」「改札口」といった頻出キーワードを網羅する。",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "h3": [
+          "西武豊島線「豊島園駅」からのルート（池袋駅から直通）",
+          "都営大江戸線「豊島園駅」からのルート（A2出口を利用）",
+          "【写真付き解説】改札から入口までの道のり",
+          "主要駅からのアクセス（新宿駅・東京駅・池袋駅）",
+          "電車で行くメリット・デメリット"
+        ],
+        "example_keywords": [
+          "豊島園駅",
+          "西武豊島線",
+          "都営大江戸線から",
+          "乗車位置",
+          "西武線の改札口から",
+          "A2出口から",
+          "新宿駅から",
+          "東京駅から"
+        ]
+      },
+      {
+        "h2": "車でのアクセス方法｜駐車場の予約は必須！",
+        "why": "車での来場を検討しているユーザー向けに、駐車場情報（料金、予約方法）や主要な高速道路からのルートを解説するため。「車でアクセス」「駐車料金」「駐車場 事前予約」といったキーワードに対応する。",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "h3": [
+          "公式駐車場の料金と事前予約の方法",
+          "首都圏の主要ICからのルート案内",
+          "周辺のコインパーキングはある？",
+          "車で行くメリット・デメリット"
+        ],
+        "example_keywords": [
+          "車でアクセス",
+          "スタジオツアー東京 車",
+          "駐車料金",
+          "駐車場 事前予約"
+        ]
+      },
+      {
+        "h2": "バス・タクシーでのアクセス方法",
+        "why": "電車・車以外の選択肢を探しているユーザーや、特定の状況（空港から直行、荷物が多いなど）に対応するため、網羅性を高める目的で設置する。",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "h3": [
+          "空港からの直行バスはある？",
+          "タクシー利用時の料金・所要時間の目安",
+          "帰りにタクシーは拾える？"
+        ],
+        "example_keywords": [
+          "タクシーでアクセス",
+          "空港からのアクセス",
+          "帰り タクシー"
+        ]
+      },
+      {
+        "h2": "【目的別】おすすめのアクセス方法を比較！最安・最速はどれ？",
+        "why": "ユーザーが自身の状況（予算、時間、同伴者など）に合わせて最適なアクセス方法を選べるように、比較情報を提供するため。「最安の行き方」「最速の行き方」という具体的なニーズに応える。",
+        "intent": "commercial",
+        "facet": "料金/割引",
+        "h3": [
+          "安さ重視なら「西武線」がおすすめ",
+          "速さ・乗り換えの手間を考えるなら出発地次第",
+          "子連れ・グループ旅行なら「車」も便利"
+        ],
+        "example_keywords": [
+          "最安の行き方",
+          "最速の行き方",
+          "電車 コスパ",
+          "車 メリット"
+        ]
+      },
+      {
+        "h2": "スタジオツアー東京のアクセスに関する基本情報",
+        "why": "アクセス情報と関連性の高い基本情報（正式名称、住所、地図）をまとめることで、ユーザーの利便性を高め、記事の信頼性を向上させるため。",
+        "intent": "informational",
+        "facet": "基本情報",
+        "h3": [
+          "正式名称と住所",
+          "Googleマップで場所を確認"
+        ],
+        "example_keywords": [
+          "スタジオツアー東京とは",
+          "としまえん跡地",
+          "スタジオツアー東京 距離"
+        ]
+      }
+    ],
+    "faqs": [
+      "ハリーポッターとしまえん（スタジオツアー東京）の最寄り駅はどこですか？",
+      "最寄り駅からスタジオツアー東京まで徒歩何分ですか？",
+      "新宿駅や東京駅から電車で行くにはどうすればいいですか？",
+      "車で行く場合、駐車場はありますか？予約は必要ですか？",
+      "一番安く行けるアクセス方法はどれですか？",
+      "チケットはどこで買えますか？当日券はありますか？"
+    ],
+    "cta": "スタジオツアー東京のチケットは完全予約制です。訪問前に必ず公式サイトで最新情報を確認し、チケットを予約しましょう。見どころやおすすめの回り方については、関連記事もぜひご覧ください。",
+    "internal_linking": [
+      "スタジオツアー東京のチケット予約完全ガイド",
+      "【ネタバレなし】スタジオツアー東京の見どころと楽しみ方",
+      "スタジオツアー東京のおすすめお土産ランキング",
+      "スタジオツアー東京周辺のおすすめランチ＆カフェ"
+    ],
+    "notes": [
+      "交通機関の料金や時刻は変動する可能性があります。記事内には調査時点の情報を記載し、「最新情報は各交通機関の公式サイトをご確認ください」という旨を明記してください。",
+      "駅構内の案内や駅からの徒歩ルートは、写真や図解を多用して、初めて訪れる人でも直感的に理解できるように工夫してください。",
+      "E-E-A-T向上のため、ワーナー ブラザース スタジオツアー東京、西武鉄道、都営地下鉄などの公式サイトへの発リンクを適切に設置し、情報の正確性と信頼性を担保してください。"
+    ]
+  },
+  "user_brief": {
+    "query_keywords": [
+      "ハリーポッター としまえん アクセス"
+    ],
+    "top_suggests": [
+      {
+        "keyword": "スタジオツアー東京",
+        "intent": "navigational",
+        "facet": "基本情報",
+        "occurrences_full": 45
+      },
+      {
+        "keyword": "豊島園駅",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 13
+      },
+      {
+        "keyword": "スタジオツアー東京のアクセス",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 10
+      },
+      {
+        "keyword": "西武豊島線",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 8
+      },
+      {
+        "keyword": "乗車位置",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 6
+      },
+      {
+        "keyword": "西武線の改札口",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 5
+      },
+      {
+        "keyword": "ハリーポッター としまえん",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 4
+      },
+      {
+        "keyword": "スタジオツアー東京に行く方法",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 4
+      },
+      {
+        "keyword": "最寄り駅",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 3
+      },
+      {
+        "keyword": "車でアクセス",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 3
+      },
+      {
+        "keyword": "西武線の改札口から",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 3
+      },
+      {
+        "keyword": "A2出口から",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "改札口まで",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "新宿駅から",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "最安の行き方",
+        "intent": "informational",
+        "facet": "料金/割引",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "50分でアクセス",
+        "intent": "informational",
+        "facet": "営業時間/所要時間",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "最寄駅から徒歩",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "最速・最安の行き方",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "チケット購入の方法",
+        "intent": "commercial",
+        "facet": "チケット/予約",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "西武線から",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "豊島園駅からスタジオツアー",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "都営大江戸線から",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "電車でアクセス",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "東京駅から",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "駐車料金",
+        "intent": "commercial",
+        "facet": "料金/割引",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "スタジオツアー東京とは",
+        "intent": "informational",
+        "facet": "基本情報",
+        "occurrences_full": 2
+      },
+      {
+        "keyword": "タクシーでアクセス",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "最速の行き方",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "おすすめスポット",
+        "intent": "informational",
+        "facet": "体験/見どころ",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "としまえんへのアクセス",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "車で行くには",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "としまえん跡地",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "豊島園駅から出発",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "アクセス簡単",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "行き方は",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "空港からのアクセス",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "東京駅からスタジオツアー",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "改札口からA2出口",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 1
+      },
+      {
+        "keyword": "スタジオツアー東京 車",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "スタジオツアー東京 距離",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "駐車場 事前予約",
+        "intent": "transactional",
+        "facet": "チケット/予約",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "ハリーポッター 行き方",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "電車 メリット",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "電車 デメリット",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "電車 コスパ",
+        "intent": "commercial",
+        "facet": "料金/割引",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "タクシー デメリット",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "大江戸線 豊島園駅",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "帰り タクシー",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "車 メリット",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "車 デメリット",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "豊島園駅から徒歩",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "帰り 車",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "アクセス 徒歩何分",
+        "intent": "informational",
+        "facet": "営業時間/所要時間",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "豊島園駅 徒歩",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "スタジオツアー東京へアクセス",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "スタジオツアー おすすめ",
+        "intent": "informational",
+        "facet": "体験/見どころ",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "スタジオツアー 車",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "スタジオツアー東京 アクセス",
+        "intent": "navigational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "タクシー メリット",
+        "intent": "informational",
+        "facet": "アクセス/行き方",
+        "occurrences_full": 0
+      },
+      {
+        "keyword": "スタジオツアー東京 駐車料金",
+        "intent": "commercial",
+        "facet": "料金/割引",
+        "occurrences_full": 0
+      }
+    ],
+    "per_page_query_counts": [
+      {
+        "url": "https://newt.net/jpn/tokyo/mag-342975525304",
+        "domain": "newt.net",
+        "query": "ハリーポッター としまえん アクセス",
+        "occurrences_full": 0
+      },
+      {
+        "url": "https://travel.navitime.com/ja/area/jp/guide/NTJiku1032/",
+        "domain": "travel.navitime.com",
+        "query": "ハリーポッター としまえん アクセス",
+        "occurrences_full": 0
+      },
+      {
+        "url": "https://1rankup.jp/toshimaen-to-studio-tour-tokyo.html",
+        "domain": "1rankup.jp",
+        "query": "ハリーポッター としまえん アクセス",
+        "occurrences_full": 0
+      }
+    ]
+  }
+}

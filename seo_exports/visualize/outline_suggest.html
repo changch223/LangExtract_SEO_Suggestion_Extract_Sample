@@ -1,0 +1,218 @@
+<style>
+.lx-highlight { position: relative; border-radius:3px; padding:1px 2px;}
+.lx-highlight .lx-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 4px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  max-width: 240px;
+  white-space: normal;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.lx-highlight:hover .lx-tooltip { visibility: visible; opacity:1; }
+.lx-animated-wrapper { max-width: 100%; font-family: Arial, sans-serif; }
+.lx-controls {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 8px;
+  padding: 12px; margin-bottom: 16px;
+}
+.lx-button-row {
+  display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;
+}
+.lx-control-btn {
+  background: #4285f4; color: white; border: none; border-radius: 4px;
+  padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 500;
+  transition: background-color 0.2s;
+}
+.lx-control-btn:hover { background: #3367d6; }
+.lx-progress-container {
+  margin-bottom: 8px;
+}
+.lx-progress-slider {
+  width: 100%; margin: 0; appearance: none; height: 6px;
+  background: #ddd; border-radius: 3px; outline: none;
+}
+.lx-progress-slider::-webkit-slider-thumb {
+  appearance: none; width: 18px; height: 18px; background: #4285f4;
+  border-radius: 50%; cursor: pointer;
+}
+.lx-progress-slider::-moz-range-thumb {
+  width: 18px; height: 18px; background: #4285f4; border-radius: 50%;
+  cursor: pointer; border: none;
+}
+.lx-status-text {
+  text-align: center; font-size: 12px; color: #666; margin-top: 4px;
+}
+.lx-text-window {
+  font-family: monospace; white-space: pre-wrap; border: 1px solid #90caf9;
+  padding: 12px; max-height: 260px; overflow-y: auto; margin-bottom: 12px;
+  line-height: 1.6;
+}
+.lx-attributes-panel {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 6px;
+  padding: 8px 10px; margin-top: 8px; font-size: 13px;
+}
+.lx-current-highlight {
+  border-bottom: 4px solid #ff4444;
+  font-weight: bold;
+  animation: lx-pulse 1s ease-in-out;
+}
+@keyframes lx-pulse {
+  0% { text-decoration-color: #ff4444; }
+  50% { text-decoration-color: #ff0000; }
+  100% { text-decoration-color: #ff4444; }
+}
+.lx-legend {
+  font-size: 12px; margin-bottom: 8px;
+  padding-bottom: 8px; border-bottom: 1px solid #e0e0e0;
+}
+.lx-label {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 4px;
+  color: #000;
+}
+.lx-attr-key {
+  font-weight: 600;
+  color: #1565c0;
+  letter-spacing: 0.3px;
+}
+.lx-attr-value {
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 0.2px;
+}
+
+/* Add optimizations with larger fonts and better readability for GIFs */
+.lx-gif-optimized .lx-text-window { font-size: 16px; line-height: 1.8; }
+.lx-gif-optimized .lx-attributes-panel { font-size: 15px; }
+.lx-gif-optimized .lx-current-highlight { text-decoration-thickness: 4px; }
+</style>
+    <div class="lx-animated-wrapper lx-gif-optimized">
+      <div class="lx-attributes-panel">
+        <div class="lx-legend">Highlights Legend: <span class="lx-label" style="background-color:#D2E3FC;">seo_suggest</span></div>
+        <div id="attributesContainer"></div>
+      </div>
+      <div class="lx-text-window" id="textWindow">
+        [TITLE] ハリーポッター としまえんへのアクセス！最安・最速の行き方をご紹介！
+[H2] ＼NEWTでおトクに旅行しませんか✈️／
+[H2] スタジオツアー東京に行く方法は？距離は？
+[H2] ＼NEWTでおトクに旅行しませんか✈️／
+[H2] スタジオツアー東京まで電車でアクセス！
+[H2] スタジオツアー東京まで車（タクシー）でアクセス！
+[H2] 目的に合わせてスタジオツアー東京に行こう！
+[H2] 人気記事ランキング
+[H2] ＼ 旅行のご相談はこちらから／
+[H2] 関連する記事
+[H2] NEWT（ニュート） かしこい、おトク、旅行アプリ
+[H2] NEWT（ニュート） かしこい、おトク、旅行アプリ
+[H2] Follow Us
+[H3] スタジオツアー東京とは？チケット購入の方法は？
+[H3] スタジオツアー東京までの最速・最安の行き方は？
+[H3] <span class="lx-highlight lx-current-highlight" data-idx="0" style="background-color:#D2E3FC;">最寄駅から徒歩</span>2分でアクセスでき、1番おすすめ
+[H3] スタジオツアー東京までの金額は乗車する駅によって異なる
+[H3] 電車で移動するメリット＆デメリット
+[H3] スタジオツアー東京の帰りは豊島園駅から出発！
+[H3] 電車は、コスパよく早くスタジオツアー東京に行きたい人におすすめ！
+[H3] 東京駅からスタジオツアー東京まで約50分でアクセスできる！
+[H3] スタジオツアー東京の駐車料金は1日1,800円
+[H3] 車（タクシー）で移動するメリット＆デメリット
+[H3] 帰りは車（タクシー）で出発！
+[H3] 車は、自由度高くスタジオツアー東京に行きたい人におすすめ！
+[H3] 横浜駅でしか買えないお土産​20選！スイーツや限定商品などおすすめを厳選
+[H3] <span class="lx-highlight" data-idx="1" style="background-color:#D2E3FC;">東京で遊べるところ</span>30選！子どもから学生や大人まで楽しめるスポット
+[H3] <span class="lx-highlight" data-idx="2" style="background-color:#D2E3FC;">神戸でしか買えないお土産</span>26選！もらって嬉しい神戸限定のお菓子を在住者が紹介
+[H3] 大阪・関西万博はいつからいつまで？狙い目の時期や時間帯も解説！
+[H3] タイで買いたいお土産ランキングTOP20！雑貨やお菓子の人気を紹介
+      </div>
+      <div class="lx-controls">
+        <div class="lx-button-row">
+          <button class="lx-control-btn" onclick="playPause()">▶️ Play</button>
+          <button class="lx-control-btn" onclick="prevExtraction()">⏮ Previous</button>
+          <button class="lx-control-btn" onclick="nextExtraction()">⏭ Next</button>
+        </div>
+        <div class="lx-progress-container">
+          <input type="range" id="progressSlider" class="lx-progress-slider"
+                 min="0" max="2" value="0"
+                 onchange="jumpToExtraction(this.value)">
+        </div>
+        <div class="lx-status-text">
+          Entity <span id="entityInfo">1/3</span> |
+          Pos <span id="posInfo">[391-398]</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function() {
+        const extractions = [{"index": 0, "class": "seo_suggest", "text": "\u6700\u5bc4\u99c5\u304b\u3089\u5f92\u6b69", "color": "#D2E3FC", "startPos": 391, "endPos": 398, "beforeText": "2] \u95a2\u9023\u3059\u308b\u8a18\u4e8b\n[H2] NEWT\uff08\u30cb\u30e5\u30fc\u30c8\uff09 \u304b\u3057\u3053\u3044\u3001\u304a\u30c8\u30af\u3001\u65c5\u884c\u30a2\u30d7\u30ea\n[H2] NEWT\uff08\u30cb\u30e5\u30fc\u30c8\uff09 \u304b\u3057\u3053\u3044\u3001\u304a\u30c8\u30af\u3001\u65c5\u884c\u30a2\u30d7\u30ea\n[H2] Follow Us\n[H3] \u30b9\u30bf\u30b8\u30aa\u30c4\u30a2\u30fc\u6771\u4eac\u3068\u306f\uff1f\u30c1\u30b1\u30c3\u30c8\u8cfc\u5165\u306e\u65b9\u6cd5\u306f\uff1f\n[H3] \u30b9\u30bf\u30b8\u30aa\u30c4\u30a2\u30fc\u6771\u4eac\u307e\u3067\u306e\u6700\u901f\u30fb\u6700\u5b89\u306e\u884c\u304d\u65b9\u306f\uff1f\n[H3] ", "extractionText": "\u6700\u5bc4\u99c5\u304b\u3089\u5f92\u6b69", "afterText": "2\u5206\u3067\u30a2\u30af\u30bb\u30b9\u3067\u304d\u30011\u756a\u304a\u3059\u3059\u3081\n[H3] \u30b9\u30bf\u30b8\u30aa\u30c4\u30a2\u30fc\u6771\u4eac\u307e\u3067\u306e\u91d1\u984d\u306f\u4e57\u8eca\u3059\u308b\u99c5\u306b\u3088\u3063\u3066\u7570\u306a\u308b\n[H3] \u96fb\u8eca\u3067\u79fb\u52d5\u3059\u308b\u30e1\u30ea\u30c3\u30c8\uff06\u30c7\u30e1\u30ea\u30c3\u30c8\n[H3] \u30b9\u30bf\u30b8\u30aa\u30c4\u30a2\u30fc\u6771\u4eac\u306e\u5e30\u308a\u306f\u8c4a\u5cf6\u5712\u99c5\u304b\u3089\u51fa\u767a\uff01\n[H3] \u96fb\u8eca\u306f\u3001\u30b3\u30b9\u30d1\u3088\u304f\u65e9\u304f\u30b9\u30bf\u30b8\u30aa\u30c4\u30a2\u30fc\u6771\u4eac\u306b\u884c\u304d\u305f\u3044\u4eba\u306b\u304a\u3059\u3059\u3081\uff01\n[H3] \u6771\u4eac\u99c5\u304b\u3089\u30b9", "attributesHtml": "<div><strong>class:</strong> seo_suggest</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">source</span>: <span class=\"lx-attr-value\">h3</span>, <span class=\"lx-attr-key\">intent</span>: <span class=\"lx-attr-value\">informational</span>, <span class=\"lx-attr-key\">facet</span>: <span class=\"lx-attr-value\">\u30a2\u30af\u30bb\u30b9/\u884c\u304d\u65b9</span>}</div>"}, {"index": 1, "class": "seo_suggest", "text": "\u6771\u4eac\u3067\u904a\u3079\u308b\u3068\u3053\u308d", "color": "#D2E3FC", "startPos": 731, "endPos": 740, "beforeText": "\u30c4\u30a2\u30fc\u6771\u4eac\u306e\u99d0\u8eca\u6599\u91d1\u306f1\u65e51,800\u5186\n[H3] \u8eca\uff08\u30bf\u30af\u30b7\u30fc\uff09\u3067\u79fb\u52d5\u3059\u308b\u30e1\u30ea\u30c3\u30c8\uff06\u30c7\u30e1\u30ea\u30c3\u30c8\n[H3] \u5e30\u308a\u306f\u8eca\uff08\u30bf\u30af\u30b7\u30fc\uff09\u3067\u51fa\u767a\uff01\n[H3] \u8eca\u306f\u3001\u81ea\u7531\u5ea6\u9ad8\u304f\u30b9\u30bf\u30b8\u30aa\u30c4\u30a2\u30fc\u6771\u4eac\u306b\u884c\u304d\u305f\u3044\u4eba\u306b\u304a\u3059\u3059\u3081\uff01\n[H3] \u6a2a\u6d5c\u99c5\u3067\u3057\u304b\u8cb7\u3048\u306a\u3044\u304a\u571f\u7523\u200b20\u9078\uff01\u30b9\u30a4\u30fc\u30c4\u3084\u9650\u5b9a\u5546\u54c1\u306a\u3069\u304a\u3059\u3059\u3081\u3092\u53b3\u9078\n[H3] ", "extractionText": "\u6771\u4eac\u3067\u904a\u3079\u308b\u3068\u3053\u308d", "afterText": "30\u9078\uff01\u5b50\u3069\u3082\u304b\u3089\u5b66\u751f\u3084\u5927\u4eba\u307e\u3067\u697d\u3057\u3081\u308b\u30b9\u30dd\u30c3\u30c8\n[H3] \u795e\u6238\u3067\u3057\u304b\u8cb7\u3048\u306a\u3044\u304a\u571f\u752326\u9078\uff01\u3082\u3089\u3063\u3066\u5b09\u3057\u3044\u795e\u6238\u9650\u5b9a\u306e\u304a\u83d3\u5b50\u3092\u5728\u4f4f\u8005\u304c\u7d39\u4ecb\n[H3] \u5927\u962a\u30fb\u95a2\u897f\u4e07\u535a\u306f\u3044\u3064\u304b\u3089\u3044\u3064\u307e\u3067\uff1f\u72d9\u3044\u76ee\u306e\u6642\u671f\u3084\u6642\u9593\u5e2f\u3082\u89e3\u8aac\uff01\n[H3] \u30bf\u30a4\u3067\u8cb7\u3044\u305f\u3044\u304a\u571f\u7523\u30e9\u30f3\u30ad\u30f3\u30b0TOP20\uff01\u96d1\u8ca8\u3084\u304a\u83d3\u5b50\u306e\u4eba\u6c17\u3092\u7d39\u4ecb", "attributesHtml": "<div><strong>class:</strong> seo_suggest</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">source</span>: <span class=\"lx-attr-value\">h3</span>, <span class=\"lx-attr-key\">intent</span>: <span class=\"lx-attr-value\">informational</span>, <span class=\"lx-attr-key\">facet</span>: <span class=\"lx-attr-value\">\u5468\u8fba\u60c5\u5831/\u89b3\u5149</span>}</div>"}, {"index": 2, "class": "seo_suggest", "text": "\u795e\u6238\u3067\u3057\u304b\u8cb7\u3048\u306a\u3044\u304a\u571f\u7523", "color": "#D2E3FC", "startPos": 770, "endPos": 782, "beforeText": "\u30c3\u30c8\uff06\u30c7\u30e1\u30ea\u30c3\u30c8\n[H3] \u5e30\u308a\u306f\u8eca\uff08\u30bf\u30af\u30b7\u30fc\uff09\u3067\u51fa\u767a\uff01\n[H3] \u8eca\u306f\u3001\u81ea\u7531\u5ea6\u9ad8\u304f\u30b9\u30bf\u30b8\u30aa\u30c4\u30a2\u30fc\u6771\u4eac\u306b\u884c\u304d\u305f\u3044\u4eba\u306b\u304a\u3059\u3059\u3081\uff01\n[H3] \u6a2a\u6d5c\u99c5\u3067\u3057\u304b\u8cb7\u3048\u306a\u3044\u304a\u571f\u7523\u200b20\u9078\uff01\u30b9\u30a4\u30fc\u30c4\u3084\u9650\u5b9a\u5546\u54c1\u306a\u3069\u304a\u3059\u3059\u3081\u3092\u53b3\u9078\n[H3] \u6771\u4eac\u3067\u904a\u3079\u308b\u3068\u3053\u308d30\u9078\uff01\u5b50\u3069\u3082\u304b\u3089\u5b66\u751f\u3084\u5927\u4eba\u307e\u3067\u697d\u3057\u3081\u308b\u30b9\u30dd\u30c3\u30c8\n[H3] ", "extractionText": "\u795e\u6238\u3067\u3057\u304b\u8cb7\u3048\u306a\u3044\u304a\u571f\u7523", "afterText": "26\u9078\uff01\u3082\u3089\u3063\u3066\u5b09\u3057\u3044\u795e\u6238\u9650\u5b9a\u306e\u304a\u83d3\u5b50\u3092\u5728\u4f4f\u8005\u304c\u7d39\u4ecb\n[H3] \u5927\u962a\u30fb\u95a2\u897f\u4e07\u535a\u306f\u3044\u3064\u304b\u3089\u3044\u3064\u307e\u3067\uff1f\u72d9\u3044\u76ee\u306e\u6642\u671f\u3084\u6642\u9593\u5e2f\u3082\u89e3\u8aac\uff01\n[H3] \u30bf\u30a4\u3067\u8cb7\u3044\u305f\u3044\u304a\u571f\u7523\u30e9\u30f3\u30ad\u30f3\u30b0TOP20\uff01\u96d1\u8ca8\u3084\u304a\u83d3\u5b50\u306e\u4eba\u6c17\u3092\u7d39\u4ecb", "attributesHtml": "<div><strong>class:</strong> seo_suggest</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">source</span>: <span class=\"lx-attr-value\">h3</span>, <span class=\"lx-attr-key\">intent</span>: <span class=\"lx-attr-value\">commercial</span>, <span class=\"lx-attr-key\">facet</span>: <span class=\"lx-attr-value\">\u304a\u571f\u7523/\u30b0\u30c3\u30ba</span>}</div>"}];
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval = null;
+        let animationSpeed = 1.0;
+
+        function updateDisplay() {
+          const extraction = extractions[currentIndex];
+          if (!extraction) return;
+
+          document.getElementById('attributesContainer').innerHTML = extraction.attributesHtml;
+          document.getElementById('entityInfo').textContent = (currentIndex + 1) + '/' + extractions.length;
+          document.getElementById('posInfo').textContent = '[' + extraction.startPos + '-' + extraction.endPos + ']';
+          document.getElementById('progressSlider').value = currentIndex;
+
+          const playBtn = document.querySelector('.lx-control-btn');
+          if (playBtn) playBtn.textContent = isPlaying ? '⏸ Pause' : '▶️ Play';
+
+          const prevHighlight = document.querySelector('.lx-text-window .lx-current-highlight');
+          if (prevHighlight) prevHighlight.classList.remove('lx-current-highlight');
+          const currentSpan = document.querySelector('.lx-text-window span[data-idx="' + currentIndex + '"]');
+          if (currentSpan) {
+            currentSpan.classList.add('lx-current-highlight');
+            currentSpan.scrollIntoView({block: 'center', behavior: 'smooth'});
+          }
+        }
+
+        function nextExtraction() {
+          currentIndex = (currentIndex + 1) % extractions.length;
+          updateDisplay();
+        }
+
+        function prevExtraction() {
+          currentIndex = (currentIndex - 1 + extractions.length) % extractions.length;
+          updateDisplay();
+        }
+
+        function jumpToExtraction(index) {
+          currentIndex = parseInt(index);
+          updateDisplay();
+        }
+
+        function playPause() {
+          if (isPlaying) {
+            clearInterval(animationInterval);
+            isPlaying = false;
+          } else {
+            animationInterval = setInterval(nextExtraction, animationSpeed * 1000);
+            isPlaying = true;
+          }
+          updateDisplay();
+        }
+
+        window.playPause = playPause;
+        window.nextExtraction = nextExtraction;
+        window.prevExtraction = prevExtraction;
+        window.jumpToExtraction = jumpToExtraction;
+
+        updateDisplay();
+      })();
+    </script>
